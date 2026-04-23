@@ -9,8 +9,20 @@ function getExportDataCsv() {
     .csv();
 }
 
+function padFilenameNumber(value) {
+  return String(value).padStart(2, "0");
+}
+
+function formatTimestampForFilename(date) {
+  return `${date.getFullYear()}-${padFilenameNumber(date.getMonth() + 1)}-${padFilenameNumber(
+    date.getDate()
+  )}T${padFilenameNumber(date.getHours())}-${padFilenameNumber(date.getMinutes())}-${padFilenameNumber(
+    date.getSeconds()
+  )}`;
+}
+
 function getDataFilename() {
-  return `accent_credibility_${participantId}.csv`;
+  return `${formatTimestampForFilename(sessionStartedAt)}_${participantFileSuffix}.csv`;
 }
 
 const jsPsych = initJsPsych({
@@ -19,6 +31,8 @@ const jsPsych = initJsPsych({
 });
 
 const participantId = jsPsych.randomization.randomID(8);
+const participantFileSuffix = participantId.slice(0, 4).toLowerCase();
+const sessionStartedAt = new Date();
 const counterbalanceList = jsPsych.randomization.sampleWithoutReplacement(
   [1, 2, 3, 4],
   1
