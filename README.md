@@ -12,7 +12,7 @@ It does all of the following:
 - presents each item only once, never both the `T` and `F` versions
 - asks participants to judge whether the statement is true or false
 - records reaction time for the judgment screen
-- downloads a `.csv` data file at the end
+- uploads the `.csv` data file to your OSF project through DataPipe at the end
 
 ## Folder structure
 
@@ -66,6 +66,8 @@ audio/filler_talker/7brghu4wnv_F1T_audio.webm
 10. Click `Open with Live Server`.
 11. The experiment will open in your browser.
 12. Run one full test yourself before collecting data.
+13. In `experiment.js`, replace `PASTE_YOUR_DATAPIPE_EXPERIMENT_ID_HERE` with your real DataPipe experiment ID.
+14. In DataPipe, make sure your OSF account is linked and `Enable data collection` is turned on for that experiment before you run participants.
 
 ## Important note about reaction time
 

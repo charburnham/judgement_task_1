@@ -1,26 +1,21 @@
+const DATAPIPE_EXPERIMENT_ID = "PASTE_YOUR_DATAPIPE_EXPERIMENT_ID_HERE";
+
+function getExportDataCsv() {
+  return jsPsych.data
+    .get()
+    .filterCustom(function (trial) {
+      return trial.exclude_from_export !== true;
+    })
+    .csv();
+}
+
+function getDataFilename() {
+  return `accent_credibility_${participantId}.csv`;
+}
+
 const jsPsych = initJsPsych({
   show_progress_bar: true,
   message_progress_bar: "Study progress",
-  on_finish: function () {
-    const filename = `accent_credibility_${participantId}.csv`;
-    jsPsych.data
-      .get()
-      .filterCustom(function (trial) {
-        return trial.exclude_from_export !== true;
-      })
-      .localSave("csv", filename);
-
-    document.body.innerHTML = `
-      <div class="jspsych-content">
-        <div class="study-box center-text">
-          <h2>Finished</h2>
-          <p>Your data file should now be downloading.</p>
-          <p><strong>Filename:</strong> ${filename}</p>
-          <p>You can now close this browser tab.</p>
-        </div>
-      </div>
-    `;
-  },
 });
 
 const participantId = jsPsych.randomization.randomID(8);
@@ -28,6 +23,36 @@ const counterbalanceList = jsPsych.randomization.sampleWithoutReplacement(
   [1, 2, 3, 4],
   1
 )[0];
+
+if (
+  !DATAPIPE_EXPERIMENT_ID ||
+  DATAPIPE_EXPERIMENT_ID === "PASTE_YOUR_DATAPIPE_EXPERIMENT_ID_HERE"
+) {
+  console.warn("DataPipe is not configured yet. Add your DataPipe experiment ID in experiment.js.");
+}
+
+const save_data_trial = {
+  type: jsPsychPipe,
+  action: "save",
+  experiment_id: DATAPIPE_EXPERIMENT_ID,
+  filename: getDataFilename(),
+  data_string: function () {
+    return getExportDataCsv();
+  },
+  on_finish: function (data) {
+    data.trial_name = "save_data";
+    data.exclude_from_export = true;
+    data.saved_filename = getDataFilename();
+  },
+};
+
+const save_data = {
+  timeline: [save_data_trial],
+  conditional_function: function () {
+    const consentData = jsPsych.data.get().filter({ trial_name: "consent" }).last(1).values()[0];
+    return consentData.consented === true;
+  },
+};
 const PRACTICE_FILLER_ITEM_NUMBER = 19;
 const TRUTH_SCALE_MAX_CM = 14;
 const SAMPLE_RECORDINGS = [
@@ -652,10 +677,10 @@ const finalScreen = {
         <div class="study-box center-text">
           <h2>End of Study</h2>
           <p>Thank you for participating.</p>
-          <p>Click the button below to finish and download the data file.</p>
+          <p>Click the button below to finish and send your responses securely to the study server.</p>
         </div>
       `,
-      choices: ["Finish and download data"],
+      choices: ["Finish study"],
       data: {
         trial_name: "final_screen",
       },
@@ -667,7 +692,32 @@ const finalScreen = {
   },
 };
 
-jsPsych.run([
+const completionScreen = {
+  timeline: [
+    {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <div class="study-box center-text">
+          <h2>Finished</h2>
+          <p>Your responses have been sent to the OSF through DataPipe.</p>
+          <p><strong>Filename:</strong> ${getDataFilename()}</p>
+          <p>You can now close this browser tab.</p>
+        </div>
+      `,
+      choices: ["Close"],
+      data: {
+        trial_name: "completion_screen",
+        exclude_from_export: true,
+      },
+    },
+  ],
+  conditional_function: function () {
+    const consentData = jsPsych.data.get().filter({ trial_name: "consent" }).last(1).values()[0];
+    return consentData.consented === true;
+  },
+};
+
+const timeline = [
   consentTrial,
   noConsentScreen,
   instructionPages,
@@ -678,4 +728,9 @@ jsPsych.run([
   practiceComplete,
   mainTrials,
   finalScreen,
-]);
+];
+
+timeline.push(save_data);
+timeline.push(completionScreen);
+
+jsPsych.run(timeline);
