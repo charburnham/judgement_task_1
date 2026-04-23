@@ -21,8 +21,8 @@
     audio/<filler_folder>/<filler_prefix>_<clip_code>_audio.webm
 
   Examples:
-  - audio/filler_talker/ftqpxk732r_F1T_audio.webm
-  - audio/filler_talker/ftqpxk732r_F1F_audio.webm
+  - audio/filler_talker/7brghu4wnv_F1T_audio.webm
+  - audio/filler_talker/7brghu4wnv_F1F_audio.webm
 */
 
 const AUDIO_FILE_EXTENSION = "webm";
@@ -40,7 +40,7 @@ const SPEAKERS = [
     folder: "native_2",
     display_name: "Native Speaker 2",
     accent_group: "native",
-    filename_prefix: "7brghu4wnv",
+    filename_prefix: "ftqpxk732r",
   },
   {
     id: "non_native_1",
@@ -63,7 +63,7 @@ const FILLER_SPEAKER = {
   folder: "filler_talker",
   display_name: "Filler Talker",
   accent_group: "filler",
-  filename_prefix: "ftqpxk732r",
+  filename_prefix: "7brghu4wnv",
 };
 
 const INCLUDE_FILLERS = FILLER_SPEAKER.filename_prefix !== "replace_with_filler_prefix";

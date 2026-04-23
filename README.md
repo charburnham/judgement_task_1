@@ -52,10 +52,10 @@ Example:
 
 ```text
 audio/native_1/ha77v84840_1T_audio.webm
-audio/native_2/7brghu4wnv_1T_audio.webm
+audio/native_2/ftqpxk732r_1T_audio.webm
 audio/non_native_1/6bqg3s4g4q_1T_audio.webm
 audio/non_native_2/2j7bwre4ol_1T_audio.webm
-audio/filler_talker/ftqpxk732r_F1T_audio.webm
+audio/filler_talker/7brghu4wnv_F1T_audio.webm
 ```
 
 5. If your filler folder name or filler filename prefix is different, edit `FILLER_SPEAKER` in `stimuli.js`.
