@@ -1,0 +1,136 @@
+---
+title: "Replication of Lev-Ari and Keysar (2010, Journal of Experimental Social Psychology): Accent and Truth Judgments"
+author: "Charlotte Burnham (edit contact information as needed)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+---
+
+## Introduction
+
+This project is a replication and partial adaptation of Lev-Ari and Keysar's (2010) finding that statements spoken with a non-native accent are judged as less truthful than equivalent statements spoken with a native accent. In the original article, the proposed mechanism was processing fluency: accented speech is harder to understand, and listeners may misattribute that difficulty to the credibility of the statement itself.
+
+The present study preserves the central logic of the original experiment while adapting it to a browser-based jsPsych format. Participants hear recorded factual statements and rate how true each statement seems on a continuous scale anchored by *definitely false* and *definitely true*. As in the original study, the procedure emphasizes that the speakers are not the source of the facts: they did not create the statements and did not know whether the statements were true or false when they recorded them. The primary replication question is whether statements spoken by non-native speakers receive lower truth ratings than statements spoken by native speakers.
+
+## Methods
+
+### Power Analysis
+
+The original Experiment 1 reported a significant difference between native and accented speech using 28 analyzed participants after exclusion. The article did not report a directly reusable standardized effect size for the exact model, but the published native-versus-mild accent contrast, $t = 2.74$ with analyzed $N = 28$, yields an approximate within-subject effect size of $d_z \approx 0.52$. The native-versus-heavy contrast was nearly identical in magnitude.
+
+Using that approximation for planning in a paired-samples framework, approximately 32 analyzable participants would provide 80% power, 42 would provide 90% power, and 51 would provide 95% power at $\alpha = .05$, two-tailed. Because the present study is web-based and includes some procedural differences from the original laboratory design, the planned target is **60 analyzable participants**. This target exceeds the approximate 95% power threshold derived from the original contrast and provides a buffer for exclusions due to non-completion or technical failure.
+
+### Planned Sample
+
+The planned sample is 60 native speakers of English, age 18 or older, completing the study online in a web browser. Recruitment source and compensation will be reported in the post-data collection addendum. Participants who do not provide consent, do not complete the task, do not meet the language eligibility criterion, or experience technical failures that prevent valid audio presentation or response collection will be excluded and replaced until 60 analyzable participants are obtained.
+
+### Materials
+
+The experiment is implemented in jsPsych and uses recorded spoken statements presented through a browser. The main stimulus set contains **52 items**, each with both a true and a false version available. Each of the four main speakers records all versions of the main items: two native speakers of English and two non-native speakers of English. Audio filenames are organized by speaker folder and clip code.
+
+In addition to the main items, the study includes a **filler set of 19 items** associated with a dedicated filler talker. One filler item is reserved for the listening practice trial, and the remaining 18 filler items can be intermixed with the main experiment trials. For each participant, only one version of each item is presented: either the true or the false recording, but never both. Within a participant, the main items are balanced so that approximately half are true and half are false. The filler items are also balanced after excluding the reserved practice filler.
+
+The experiment also includes two sample self-recording sentences shown before the listening task. These sample sentences are:
+
+- "Ants don't sleep"
+- "A giraffe can go without water longer than a camel can."
+
+Participants read each sentence aloud into their microphone, and after each recording they are shown whether the sentence was true or false. According to the implementation, these sample recordings are not saved.
+
+The truth judgment response is collected on a continuous **14 cm scale** ranging from 0 to 14, labeled *definitely false* on the left and *definitely true* on the right. The program records item identity, speaker identity, accent group, truth value, truth code, whether the item is a filler, the participant's truth rating in centimeters, and reaction time. At the end of the study, data are sent to OSF using the jsPsych DataPipe plugin.
+
+### Procedure
+
+The original study made a strong effort to communicate that speakers were merely reciting experimenter-provided information rather than expressing their own knowledge. In the original procedure, participants first served as speakers themselves and then learned the truth value of the sentences they had just recorded. The updated browser-based experiment retains this logic closely.
+
+Participants first view a consent form. They then read written instructions stating that they will hear short recorded statements and rate how true each one seems on a continuous line. The instructions explicitly state that the speakers did not make up the statements and did not know whether the statements were true or false when they recorded them.
+
+After the instructions, participants complete a sample-recording phase. They are asked to record two short sentences aloud for future experiments. After each sentence, they are told whether that statement was actually true or false. This procedure is intended to help participants understand that speakers can record statements without knowing their veracity, thereby preserving a key feature of the original design. In the current implementation, participants are also told that these sample recordings will not be saved.
+
+Next, participants complete one listening practice trial. The practice trial presents an audio recording and then a continuous truth-rating scale identical to the one used in the main task. After practice, the experiment begins.
+
+The main task presents a randomized trial sequence consisting of the 52 main items and the 18 non-practice filler items. On each trial, an audio statement plays automatically. Immediately afterward, participants rate how true they think the statement is by moving a slider along the 14 cm line from *definitely false* to *definitely true*. The scale requires movement before the participant can continue. Reaction time is recorded automatically for each truth-rating trial. After the final screen, the dataset is transmitted securely to OSF through DataPipe.
+
+### Analysis Plan
+
+The confirmatory hypothesis is that statements spoken by non-native speakers will receive lower truth ratings than statements spoken by native speakers.
+
+The primary confirmatory analysis will use only **main experimental items**, excluding the sample-recording trials, the practice trial, all filler trials, consent/instruction screens, and any administrative save/completion trials. The dependent variable will be the continuous truth rating in centimeters (`participant_truth_rating_cm`), ranging from 0 to 14.
+
+The primary predictor will be accent group (`native` vs. `non_native`). A linear mixed-effects model will be used if model convergence is satisfactory:
+
+`truth_rating_cm ~ accent_group + truth_value + (1 | participant_id) + (1 | fact_id)`
+
+The critical test is the fixed effect of `accent_group`, with native speech as the reference level. A negative coefficient for non-native speech would indicate that participants judged those statements as less true.
+
+Because the original article also modeled judgments with subjects and items as random variables, this mixed-model approach preserves the main structure of the original analysis as closely as possible in the present design. Unlike the original study, the present implementation does not collect item-level "known true/known false/not known" judgments or "could not understand the speaker" responses, so those original covariates cannot be included.
+
+As a simpler descriptive cross-check, participant-level mean truth ratings for native and non-native main-item trials may also be compared with a paired-samples t-test. This is not the primary inferential analysis but would provide an intuitive summary of the direction and size of the effect.
+
+Reaction time is not the primary outcome for the replication claim, but it will be retained for exploratory analyses. For any reaction-time analyses, implausibly short responses and technically invalid trials will be excluded according to transparent post hoc criteria reported in the final paper.
+
+### Differences from Original Study
+
+The present design is closer to the original Experiment 1 than the earlier binary-response draft, but it still differs in several important ways.
+
+First, the present study uses **two accent categories** rather than three. The original Experiment 1 compared native, mildly accented non-native, and heavily accented non-native speech. The current implementation uses two native speakers and two non-native speakers, yielding a native-versus-non-native comparison without a mild/heavy distinction.
+
+Second, although the experiment restores a continuous truth scale, it is implemented digitally in jsPsych rather than as the original 14 cm paper line judged in the laboratory. The current implementation preserves the same endpoints and metric range, but the mode of response differs.
+
+Third, the study is conducted online rather than in person. The original design relied on an experimenter-led interaction and an ostensibly real recording task. The present version recreates that logic with in-browser microphone recording and feedback, but participants are explicitly told that the sample recordings will not be saved. This may make the cover story more transparent than in the original experiment.
+
+Fourth, the present task uses **52 main items** rather than the original 45 target statements. It also includes filler material and a practice trial implemented in software rather than via experimenter-led examples. These differences may affect pacing, fatigue, or accent salience.
+
+Fifth, the present implementation does not include the original follow-up measures in which participants indicated whether they knew for a fact that a statement was true or false, identified the source of that knowledge, or reported that they could not understand what the speaker said. As a result, the present analysis cannot reproduce the original knowledge-based follow-up analyses.
+
+Sixth, the present implementation records reaction time for the truth judgment and automatically uploads the data through DataPipe to OSF. These are useful additions for replication workflow, but they were not focal features of the original experiment.
+
+Taken together, these differences mean that the present study should be interpreted as a close but not exact replication of the original Experiment 1.
+
+### Methods Addendum (Post Data Collection)
+
+#### Actual Sample
+
+To be completed after data collection. This section will report the final analyzed sample size, recruitment source, demographics, exclusions, and any technical losses.
+
+#### Differences from pre-data collection methods plan
+
+To be completed after data collection. If no deviations occur, this section will state "none."
+
+## Results
+
+### Data preparation
+
+Data preparation will follow the analysis plan. The confirmatory dataset will be restricted to completed participants with usable data and to trials with `trial_name = "truth_judgment"` and `stimulus_set = "main"`. Practice, filler, sample-recording, consent, instruction, and administrative trials will be excluded from the confirmatory analysis. Any additional exclusion steps will be reported transparently after data collection.
+
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+The confirmatory analysis will test whether non-native speech lowers truth ratings relative to native speech in the main-item dataset. A side-by-side comparison with the original pattern of results will be included if possible after data collection.
+
+### Exploratory analyses
+
+Exploratory analyses may examine reaction time differences by accent group, effects of objective truth value, possible speaker-level variation, and any differences between main and filler items. Any such analyses will be clearly labeled exploratory.
+
+## Discussion
+
+### Summary of Replication Attempt
+
+To be completed after data collection. This section will summarize whether the primary confirmatory analysis replicated, partially replicated, or failed to replicate the original effect.
+
+### Commentary
+
+To be completed after data collection. This section may discuss the implications of the web-based implementation, the absence of the original knowledge and comprehension questions, the lack of a mild-versus-heavy accent manipulation, and any insights from exploratory analyses.
