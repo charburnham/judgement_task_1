@@ -18,10 +18,6 @@ The present study preserves the central logic of the original experiment while a
 
 ### Power Analysis
 
-The original Experiment 1 reported a significant difference between native and accented speech using 28 analyzed participants after exclusion. The article did not report a directly reusable standardized effect size for the exact model, but the published native-versus-mild accent contrast, $t = 2.74$ with analyzed $N = 28$, yields an approximate within-subject effect size of $d_z \approx 0.52$. The native-versus-heavy contrast was nearly identical in magnitude.
-
-Using that approximation for planning in a paired-samples framework, approximately 32 analyzable participants would provide 80% power, 42 would provide 90% power, and 51 would provide 95% power at $\alpha = .05$, two-tailed. Because the present study is web-based and includes some procedural differences from the original laboratory design, the planned target is **60 analyzable participants**. This target exceeds the approximate 95% power threshold derived from the original contrast and provides a buffer for exclusions due to non-completion or technical failure.
-
 ### Planned Sample
 
 The planned sample is 60 native speakers of English, age 18 or older, completing the study online in a web browser. Recruitment source and compensation will be reported in the post-data collection addendum. Participants who do not provide consent, do not complete the task, do not meet the language eligibility criterion, or experience technical failures that prevent valid audio presentation or response collection will be excluded and replaced until 60 analyzable participants are obtained.
@@ -54,14 +50,6 @@ Next, participants complete one listening practice trial. The practice trial pre
 The main task presents a randomized trial sequence consisting of the 52 main items and the 18 non-practice filler items. On each trial, an audio statement plays automatically. Immediately afterward, participants rate how true they think the statement is by moving a slider along the 14 cm line from *definitely false* to *definitely true*. The scale requires movement before the participant can continue. Reaction time is recorded automatically for each truth-rating trial. After the final screen, the dataset is transmitted securely to OSF through DataPipe.
 
 ### Analysis Plan
-
-The confirmatory hypothesis is that statements spoken by non-native speakers will receive lower truth ratings than statements spoken by native speakers.
-
-The primary confirmatory analysis will use only **main experimental items**, excluding the sample-recording trials, the practice trial, all filler trials, consent/instruction screens, and any administrative save/completion trials. The dependent variable will be the continuous truth rating in centimeters (`participant_truth_rating_cm`), ranging from 0 to 14.
-
-The primary predictor will be accent group (`native` vs. `non_native`). A linear mixed-effects model will be used if model convergence is satisfactory:
-
-`truth_rating_cm ~ accent_group + truth_value + (1 | participant_id) + (1 | fact_id)`
 
 The critical test is the fixed effect of `accent_group`, with native speech as the reference level. A negative coefficient for non-native speech would indicate that participants judged those statements as less true.
 
