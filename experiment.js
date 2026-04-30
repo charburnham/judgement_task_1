@@ -67,7 +67,10 @@ const save_data = {
     return consentData.consented === true;
   },
 };
+const EXCLUDED_MAIN_ITEM_NUMBERS = new Set([49, 50, 51, 52]);
+const EXCLUDED_FILLER_ITEM_NUMBERS = new Set([17, 18, 19]);
 const PRACTICE_FILLER_ITEM_NUMBER = 19;
+const PRACTICE_FILLER_TRUTH_CODE = "T";
 const TRUTH_SCALE_MAX_CM = 14;
 const SAMPLE_RECORDINGS = [
   {
@@ -88,6 +91,14 @@ jsPsych.data.addProperties({
   participant_id: participantId,
   counterbalance_list: counterbalanceList,
   study_name: "accent_credibility_four_speakers",
+});
+
+const EXPERIMENT_MAIN_ITEMS = MAIN_ITEMS.filter(function (item) {
+  return !EXCLUDED_MAIN_ITEM_NUMBERS.has(item.item_number);
+});
+
+const EXPERIMENT_FILLER_ITEMS = FILLER_ITEMS.filter(function (item) {
+  return !EXCLUDED_FILLER_ITEM_NUMBERS.has(item.item_number);
 });
 
 function buildAudioPath(speaker, clipCode) {
@@ -141,14 +152,6 @@ function buildTrialRecord(stimulus, speaker) {
 }
 
 function buildPracticeTrial() {
-  const nativeSpeakers = SPEAKERS.filter(function (speaker) {
-    return speaker.accent_group === "native";
-  });
-
-  if (nativeSpeakers.length === 0) {
-    return null;
-  }
-
   const practiceItem = FILLER_ITEMS.find(function (item) {
     return item.item_number === PRACTICE_FILLER_ITEM_NUMBER;
   });
@@ -157,32 +160,25 @@ function buildPracticeTrial() {
     return null;
   }
 
-  const truthCode = jsPsych.randomization.sampleWithoutReplacement(["T", "F"], 1)[0];
-  const practiceSpeaker = jsPsych.randomization.sampleWithoutReplacement(nativeSpeakers, 1)[0];
-
   return buildTrialRecord(
     {
       item_id: practiceItem.item_id,
-      clip_code: `${practiceItem.code_prefix}${practiceItem.item_number}${truthCode}`,
+      clip_code: `${practiceItem.code_prefix}${practiceItem.item_number}${PRACTICE_FILLER_TRUTH_CODE}`,
       item_number: practiceItem.item_number,
       statement_text: practiceItem.statement_text,
-      truth_code: truthCode,
-      truth_value: truthCode === "T" ? "true" : "false",
+      truth_code: PRACTICE_FILLER_TRUTH_CODE,
+      truth_value: PRACTICE_FILLER_TRUTH_CODE === "T" ? "true" : "false",
       stimulus_set: "practice",
       is_filler: true,
     },
-    practiceSpeaker
+    FILLER_SPEAKER
   );
 }
 
 function buildTrials() {
-  const balancedMainStimuli = buildBalancedStimuli(MAIN_ITEMS);
+  const balancedMainStimuli = buildBalancedStimuli(EXPERIMENT_MAIN_ITEMS);
   const balancedFillerStimuli = INCLUDE_FILLERS
-    ? buildBalancedStimuli(
-        FILLER_ITEMS.filter(function (item) {
-          return item.item_number !== PRACTICE_FILLER_ITEM_NUMBER;
-        })
-      )
+    ? buildBalancedStimuli(EXPERIMENT_FILLER_ITEMS)
     : [];
 
   const mainTrials = balancedMainStimuli.map(function (stimulus, index) {

@@ -48,6 +48,13 @@ The current setup expects:
 - filler item recordings `F1T` to `F19F` in `audio/filler_talker/`
 - filenames in the form `<prefix>_<clip_code>_audio.webm`
 
+The current experiment plays:
+
+- `48` critical items: main items `1` to `48`
+- `16` filler items: filler items `F1` to `F16`
+- `1` practice item: `F19T` only
+- excluded from the experiment: main items `49` to `52`, filler items `F17`, `F18`, and `F19F`
+
 Example:
 
 ```text
@@ -96,7 +103,7 @@ This means:
 - a participant never hears both the `T` and `F` versions of the same item
 - across participants, different speakers are used for the same main stimuli
 - main items are balanced to half true and half false per participant
-- filler stimuli stay with the dedicated filler talker, are mixed into the same randomized trial order, and are split as evenly as possible between true and false because the current filler count is odd
+- filler stimuli stay with the dedicated filler talker and are mixed into the same randomized trial order
 
 ## If you want to add more items
 
