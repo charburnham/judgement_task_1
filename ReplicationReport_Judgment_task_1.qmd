@@ -19,8 +19,9 @@ The present study preserves the central logic of the original experiment while a
 ### Power Analysis
 
 ### Planned Sample
+I plan to recruit 60-70 analyzable participants. This is larger than the original experiments, which used about 30 analyzable participants in Experiment 1 and 27 in Experiment 2, but I think a larger sample is justified because my study is an online adaptation rather than an exact lab replication.
 
-The planned sample is 60 native speakers of English, age 18 or older, completing the study online in a web browser. Recruitment source and compensation will be reported in the post-data collection addendum. Participants who do not provide consent, do not complete the task, do not meet the language eligibility criterion, or experience technical failures that prevent valid audio presentation or response collection will be excluded and replaced until 60 analyzable participants are obtained.
+I also think 75 is a reasonable target because my design differs from the original in ways that could add noise, including the web-based format, the simplified native versus non-native comparison, and the absence of the original knowledge follow-up measures. For that reason, I would rather aim a little higher than simply match the original sample size.
 
 ### Materials
 
@@ -51,13 +52,11 @@ The main task presents a randomized trial sequence consisting of the 52 main ite
 
 ### Analysis Plan
 
-The critical test is the fixed effect of `accent_group`, with native speech as the reference level. A negative coefficient for non-native speech would indicate that participants judged those statements as less true.
+My primary dependent variable will be truth rating on the 0 to 14 continuous scale. For the confirmatory analysis, I will restrict the dataset to main-item trials and exclude practice, filler, consent, instruction, and other administrative trials.
 
-Because the original article also modeled judgments with subjects and items as random variables, this mixed-model approach preserves the main structure of the original analysis as closely as possible in the present design. Unlike the original study, the present implementation does not collect item-level "known true/known false/not known" judgments or "could not understand the speaker" responses, so those original covariates cannot be included.
+Following the original paper, I will analyze the data using a linear mixed-effects model with subjects and items as random effects. My main fixed effect will be accent group (native vs. non_native). The critical test is whether non-native speech receives lower truth ratings than native speech. This models the analysis on the original article, which used mixed models with subjects and items as random variables and accent as a fixed effect.
 
-As a simpler descriptive cross-check, participant-level mean truth ratings for native and non-native main-item trials may also be compared with a paired-samples t-test. This is not the primary inferential analysis but would provide an intuitive summary of the direction and size of the effect.
-
-Reaction time is not the primary outcome for the replication claim, but it will be retained for exploratory analyses. For any reaction-time analyses, implausibly short responses and technically invalid trials will be excluded according to transparent post hoc criteria reported in the final paper.
+Because my study includes both true and false statements, I will also include truth value as a control predictor if needed.
 
 ### Differences from Original Study
 
