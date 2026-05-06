@@ -209,7 +209,7 @@ function buildSampleRecordingTrial(sample) {
     stimulus: `
       <div class="study-box sample-recording-box">
         <h2>Sample Recording</h2>
-        <p>Read the sentence below aloud. This sample is for future experiments and will not be saved.</p>
+        <p>Read the sentence below aloud. This sample is for future experiments.</p>
         <div class="sample-sentence">"${sample.sentence_text}"</div>
         <div class="sample-controls">
           <button type="button" class="jspsych-btn sample-recording-start">Start recording</button>
@@ -470,7 +470,6 @@ const instructionPages = {
             <p>First, you will record <strong>two sample sentences</strong> for future experiments.</p>
             <p>Each sentence will appear on the screen. Click <strong>Start recording</strong>, read the sentence aloud, and then click <strong>End recording</strong>.</p>
             <p>After you click <strong>Done</strong>, you will be told whether the sentence was actually true or false.</p>
-            <p>These sample recordings will <strong>not</strong> be saved.</p>
           </div>
         `,
         `
@@ -507,7 +506,6 @@ const sampleRecordingIntro = {
         <div class="study-box center-text">
           <h2>Sample Recordings</h2>
           <p>First, you are going to record two sample sentences for future experiments.</p>
-          <p>These recordings will not be saved.</p>
         </div>
       `,
       choices: ["Begin sample recordings"],
@@ -571,9 +569,6 @@ const judgmentTrial = {
   stimulus: `
     <div class="study-box center-text truth-scale-trial">
       <div class="big-question">How true do you think the statement you just heard is?</div>
-      <p>Move the marker to the point on the line that best matches your judgment.</p>
-      <p class="truth-scale-instruction">Left end: definitely false. Right end: definitely true.</p>
-      <p class="small-note">Reaction time for this judgment is recorded automatically.</p>
     </div>
   `,
   labels: ["definitely false", "definitely true"],
@@ -709,8 +704,8 @@ const completionScreen = {
       stimulus: `
         <div class="study-box center-text">
           <h2>Finished</h2>
-          <p>Your responses have been sent to the OSF through DataPipe.</p>
-          <p><strong>Filename:</strong> ${getDataFilename()}</p>
+          <p>Thank you for participating.</p>
+          <p>Your responses have been recorded.</p>
           <p>You can now close this browser tab.</p>
         </div>
       `,
