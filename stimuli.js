@@ -40,7 +40,7 @@ const SPEAKERS = [
     folder: "native_2",
     display_name: "Native Speaker 2",
     accent_group: "native",
-    filename_prefix: "ftqpxk732r",
+    filename_prefix: "6nhu1nbwba",
   },
   {
     id: "non_native_1",
