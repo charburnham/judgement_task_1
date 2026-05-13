@@ -72,6 +72,10 @@ const EXCLUDED_FILLER_ITEM_NUMBERS = new Set([17, 18, 19]);
 const PRACTICE_FILLER_ITEM_NUMBER = 19;
 const PRACTICE_FILLER_TRUTH_CODE = "T";
 const TRUTH_SCALE_MAX_CM = 14;
+const UNAVAILABLE_CLIP_CODES_BY_SPEAKER = {
+  native_2: new Set(["2F", "21F"]),
+  non_native_1: new Set(["42F"]),
+};
 const SAMPLE_RECORDINGS = [
   {
     id: "sample_1",
@@ -105,6 +109,15 @@ function buildAudioPath(speaker, clipCode) {
   return `audio/${speaker.folder}/${speaker.filename_prefix}_${clipCode}_audio.${AUDIO_FILE_EXTENSION}`;
 }
 
+function getAvailableTruthCodes(item, speaker) {
+  const clipBase = `${item.code_prefix}${item.item_number}`;
+  const unavailableClipCodes = UNAVAILABLE_CLIP_CODES_BY_SPEAKER[speaker.id] || new Set();
+
+  return ["T", "F"].filter(function (truthCode) {
+    return !unavailableClipCodes.has(`${clipBase}${truthCode}`);
+  });
+}
+
 function buildBalancedStimuli(items) {
   const shuffledItems = jsPsych.randomization.shuffle(items.slice());
   const extraTrueItemCount =
@@ -131,6 +144,81 @@ function buildBalancedStimuli(items) {
       stimulus_set: item.stimulus_set,
       is_filler: item.is_filler,
     };
+  });
+}
+
+function buildSpeakerAssignedStimulus(item, speaker, truthCode) {
+  return {
+    item_id: item.item_id,
+    clip_code: `${item.code_prefix}${item.item_number}${truthCode}`,
+    item_number: item.item_number,
+    statement_text: item.statement_text,
+    truth_code: truthCode,
+    truth_value: truthCode === "T" ? "true" : "false",
+    stimulus_set: item.stimulus_set,
+    is_filler: item.is_filler,
+    speaker: speaker,
+  };
+}
+
+function buildBalancedMainStimuli(items) {
+  const itemSpeakerPairs = items.map(function (item, index) {
+    return {
+      item: item,
+      speaker: SPEAKERS[(index + (counterbalanceList - 1)) % SPEAKERS.length],
+    };
+  });
+
+  const forcedTruePairs = [];
+  const forcedFalsePairs = [];
+  const flexiblePairs = [];
+
+  itemSpeakerPairs.forEach(function (pair) {
+    const availableTruthCodes = getAvailableTruthCodes(pair.item, pair.speaker);
+
+    if (availableTruthCodes.length === 0) {
+      throw new Error(
+        `No available audio files for ${pair.speaker.id} item ${pair.item.item_number}.`
+      );
+    }
+
+    if (availableTruthCodes.length === 1) {
+      if (availableTruthCodes[0] === "T") {
+        forcedTruePairs.push(pair);
+      } else {
+        forcedFalsePairs.push(pair);
+      }
+      return;
+    }
+
+    flexiblePairs.push(pair);
+  });
+
+  const extraTrueItemCount =
+    itemSpeakerPairs.length % 2 === 1
+      ? jsPsych.randomization.sampleWithoutReplacement([0, 1], 1)[0]
+      : 0;
+  const baselineTrueCount = Math.floor(itemSpeakerPairs.length / 2) + extraTrueItemCount;
+  const minimumTrueCount = forcedTruePairs.length;
+  const maximumTrueCount = itemSpeakerPairs.length - forcedFalsePairs.length;
+  const targetTrueCount = Math.min(maximumTrueCount, Math.max(minimumTrueCount, baselineTrueCount));
+  const flexibleTruePairCount = targetTrueCount - forcedTruePairs.length;
+  const flexibleTrueItemIds = new Set(
+    jsPsych.randomization
+      .sampleWithoutReplacement(flexiblePairs, flexibleTruePairCount)
+      .map(function (pair) {
+        return pair.item.item_id;
+      })
+  );
+
+  return itemSpeakerPairs.map(function (pair) {
+    const truthCode = flexibleTrueItemIds.has(pair.item.item_id)
+      ? "T"
+      : forcedTruePairs.includes(pair)
+        ? "T"
+        : "F";
+
+    return buildSpeakerAssignedStimulus(pair.item, pair.speaker, truthCode);
   });
 }
 
@@ -176,14 +264,13 @@ function buildPracticeTrial() {
 }
 
 function buildTrials() {
-  const balancedMainStimuli = buildBalancedStimuli(EXPERIMENT_MAIN_ITEMS);
+  const balancedMainStimuli = buildBalancedMainStimuli(EXPERIMENT_MAIN_ITEMS);
   const balancedFillerStimuli = INCLUDE_FILLERS
     ? buildBalancedStimuli(EXPERIMENT_FILLER_ITEMS)
     : [];
 
-  const mainTrials = balancedMainStimuli.map(function (stimulus, index) {
-    const speaker = SPEAKERS[(index + (counterbalanceList - 1)) % SPEAKERS.length];
-    return buildTrialRecord(stimulus, speaker);
+  const mainTrials = balancedMainStimuli.map(function (stimulus) {
+    return buildTrialRecord(stimulus, stimulus.speaker);
   });
 
   const fillerTrials = balancedFillerStimuli.map(function (stimulus) {
