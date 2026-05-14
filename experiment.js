@@ -1,4 +1,5 @@
 const DATAPIPE_EXPERIMENT_ID = "kjTo6QTrIzDH";
+const PROLIFIC_COMPLETION_CODE = "PASTE_YOUR_PROLIFIC_COMPLETION_CODE_HERE";
 
 function getExportDataCsv() {
   return jsPsych.data
@@ -25,11 +26,27 @@ function getDataFilename() {
   return `${formatTimestampForFilename(sessionStartedAt)}_${participantFileSuffix}.csv`;
 }
 
+function getProlificCompletionUrl() {
+  if (
+    !PROLIFIC_COMPLETION_CODE ||
+    PROLIFIC_COMPLETION_CODE === "PASTE_YOUR_PROLIFIC_COMPLETION_CODE_HERE"
+  ) {
+    return null;
+  }
+
+  return `https://app.prolific.com/submissions/complete?cc=${encodeURIComponent(
+    PROLIFIC_COMPLETION_CODE
+  )}`;
+}
+
 const jsPsych = initJsPsych({
   show_progress_bar: true,
   message_progress_bar: "Study progress",
 });
 
+const prolificPid = jsPsych.data.getURLVariable("PROLIFIC_PID");
+const prolificStudyId = jsPsych.data.getURLVariable("STUDY_ID");
+const prolificSessionId = jsPsych.data.getURLVariable("SESSION_ID");
 const participantId = jsPsych.randomization.randomID(8);
 const participantFileSuffix = participantId.slice(0, 4).toLowerCase();
 const sessionStartedAt = new Date();
@@ -43,6 +60,16 @@ if (
   DATAPIPE_EXPERIMENT_ID === "PASTE_YOUR_DATAPIPE_EXPERIMENT_ID_HERE"
 ) {
   console.warn("DataPipe is not configured yet. Add your DataPipe experiment ID in experiment.js.");
+}
+
+if (!prolificPid) {
+  console.warn("PROLIFIC_PID was not found in the URL. This is expected during local testing, but not for live Prolific participants.");
+}
+
+if (!getProlificCompletionUrl()) {
+  console.warn(
+    "Prolific completion redirect is not configured yet. Add your Prolific completion code in experiment.js."
+  );
 }
 
 const save_data_trial = {
@@ -95,6 +122,10 @@ jsPsych.data.addProperties({
   participant_id: participantId,
   counterbalance_list: counterbalanceList,
   study_name: "accent_credibility_four_speakers",
+  prolific_pid: prolificPid,
+  prolific_study_id: prolificStudyId,
+  prolific_session_id: prolificSessionId,
+  recruitment_platform: prolificPid ? "prolific" : "direct",
 });
 
 const EXPERIMENT_MAIN_ITEMS = MAIN_ITEMS.filter(function (item) {
@@ -788,18 +819,40 @@ const completionScreen = {
   timeline: [
     {
       type: jsPsychHtmlButtonResponse,
-      stimulus: `
-        <div class="study-box center-text">
-          <h2>Finished</h2>
-          <p>Thank you for participating.</p>
-          <p>Your responses have been recorded.</p>
-          <p>You can now close this browser tab.</p>
-        </div>
-      `,
-      choices: ["Close"],
+      stimulus: function () {
+        const prolificCompletionUrl = getProlificCompletionUrl();
+
+        if (prolificCompletionUrl) {
+          return `
+            <div class="study-box center-text">
+              <h2>Finished</h2>
+              <p>Thank you for participating.</p>
+              <p>Your responses have been recorded.</p>
+              <p>Click the button below to return to Prolific and complete your submission.</p>
+            </div>
+          `;
+        }
+
+        return `
+          <div class="study-box center-text">
+            <h2>Finished</h2>
+            <p>Thank you for participating.</p>
+            <p>Your responses have been recorded.</p>
+            <p>Your Prolific completion redirect is not configured yet, so you can now close this browser tab.</p>
+          </div>
+        `;
+      },
+      choices: ["Continue"],
       data: {
         trial_name: "completion_screen",
         exclude_from_export: true,
+      },
+      on_finish: function () {
+        const prolificCompletionUrl = getProlificCompletionUrl();
+
+        if (prolificCompletionUrl) {
+          window.location.assign(prolificCompletionUrl);
+        }
       },
     },
   ],

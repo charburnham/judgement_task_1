@@ -74,7 +74,9 @@ audio/filler_talker/7brghu4wnv_F1T_audio.webm
 11. The experiment will open in your browser.
 12. Run one full test yourself before collecting data.
 13. In `experiment.js`, replace `PASTE_YOUR_DATAPIPE_EXPERIMENT_ID_HERE` with your real DataPipe experiment ID.
-14. In DataPipe, make sure your OSF account is linked and `Enable data collection` is turned on for that experiment before you run participants.
+14. In `experiment.js`, replace `PASTE_YOUR_PROLIFIC_COMPLETION_CODE_HERE` with the completion code from your Prolific study setup.
+15. In Prolific, turn on URL parameters so your study link includes `PROLIFIC_PID`, `STUDY_ID`, and `SESSION_ID`.
+16. In DataPipe, make sure your OSF account is linked and `Enable data collection` is turned on for that experiment before you run participants.
 
 ## Important note about reaction time
 
