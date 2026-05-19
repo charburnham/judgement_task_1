@@ -826,7 +826,7 @@ const completionScreen = {
           return `
             <div class="study-box center-text">
               <h2>Finished</h2>
-              <p>Thank you for participating.</p>
+              <p>Thank you for participating. Here is your completion code: C17334OQ</p>
               <p>Your responses have been recorded.</p>
               <p>Click the button below to return to Prolific and complete your submission.</p>
             </div>
