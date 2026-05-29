@@ -1,0 +1,424 @@
+"trial_name","rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","participant_id","counterbalance_list","study_name","prolific_pid","prolific_study_id","prolific_session_id","recruitment_platform","consented","success","timeout","failed_images","failed_audio","failed_video","view_history","fact_id","clip_code","item_number","statement_text","truth_code","truth_value","stimulus_set","is_filler","speaker_id","speaker_label","accent_group","audio_path","slider_start","participant_truth_rating_cm","participant_judgment","truth_scale_min_cm","truth_scale_max_cm","truth_scale_left_label","truth_scale_right_label"
+"consent","4275","
+    <div class=""study-box"">
+      <h1>Consent Form</h1>
+      <p>You are invited to take part in a study about how people evaluate spoken information.</p>
+      <p>In this study, you will listen to short audio recordings and rate how true you think each statement is on a continuous scale from <strong>definitely false</strong> to <strong>definitely true</strong>.</p>
+      <p>Your responses and reaction times will be recorded. You may stop at any time by closing the browser window.</p>
+      <p>By clicking <strong>I consent</strong>, you confirm that you are at least 18 years old, that you understand what participation involves, and that you agree to take part.</p>
+    </div>
+  ","0","html-button-response","0","2.1.0","4284","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","true","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","preload","2","2.1.0","4577","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","true","false","[]","[]","[]","","","","","","","","","","","","","","","","","","","",""
+"instructions","35690","","","instructions","3","2.1.0","40269","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","[{""page_index"":0,""viewing_time"":3473},{""page_index"":1,""viewing_time"":5150},{""page_index"":2,""viewing_time"":5817},{""page_index"":3,""viewing_time"":11583},{""page_index"":4,""viewing_time"":9668}]","","","","","","","","","","","","","","","","","","",""
+"practice_intro","3047","
+        <div class=""study-box center-text"">
+          <h2>Listening Practice Trial</h2>
+          <p>You are about to complete one listening practice trial.</p>
+          <p>Listen to the recording and rate how true the statement seems on the continuous scale, just like you will in the experiment.</p>
+          <p>This trial is only for practice.</p>
+        </div>
+      ","0","html-button-response","9","2.1.0","72268","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F19T_audio.webm","null","audio-keyboard-response","10","2.1.1","76929","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F19","F19T","19","Audio item F19","T","true","practice","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F19T_audio.webm","","","","","","",""
+"truth_judgment","3967","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","11","2.1.0","80901","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F19","F19T","19","Audio item F19","T","true","practice","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F19T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"practice_complete","2281","
+        <div class=""study-box center-text"">
+          <h2>Practice Complete</h2>
+          <p>You have finished the practice trial.</p>
+          <p>The actual experiment will begin next.</p>
+        </div>
+      ","0","html-button-response","12","2.1.0","83185","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F8T_audio.webm","null","audio-keyboard-response","13","2.1.1","89008","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F8","F8T","8","Audio item F8","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F8T_audio.webm","","","","","","",""
+"truth_judgment","2042","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","14","html-slider-response","14","2.1.0","91052","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F8","F8T","8","Audio item F8","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F8T_audio.webm","7","14","14","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F13T_audio.webm","null","audio-keyboard-response","15","2.1.1","94475","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F13","F13T","13","Audio item F13","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F13T_audio.webm","","","","","","",""
+"truth_judgment","2291","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","16","2.1.0","96769","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F13","F13T","13","Audio item F13","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F13T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_43T_audio.webm","null","audio-keyboard-response","17","2.1.1","101329","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","43","43T","43","Audio item 43","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_43T_audio.webm","","","","","","",""
+"truth_judgment","1504","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","4","html-slider-response","18","2.1.0","102835","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","43","43T","43","Audio item 43","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_43T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_48F_audio.webm","null","audio-keyboard-response","19","2.1.1","107756","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","48","48F","48","Audio item 48","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_48F_audio.webm","","","","","","",""
+"truth_judgment","2193","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","10","html-slider-response","20","2.1.0","109951","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","48","48F","48","Audio item 48","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_48F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_13F_audio.webm","null","audio-keyboard-response","21","2.1.1","115356","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","13","13F","13","Audio item 13","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_13F_audio.webm","","","","","","",""
+"truth_judgment","2078","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","6","html-slider-response","22","2.1.0","117436","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","13","13F","13","Audio item 13","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_13F_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_11F_audio.webm","null","audio-keyboard-response","23","2.1.1","124396","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","11","11F","11","Audio item 11","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_11F_audio.webm","","","","","","",""
+"truth_judgment","2371","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","10","html-slider-response","24","2.1.0","126769","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","11","11F","11","Audio item 11","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_11F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F7T_audio.webm","null","audio-keyboard-response","25","2.1.1","131089","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F7","F7T","7","Audio item F7","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F7T_audio.webm","","","","","","",""
+"truth_judgment","1577","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","26","2.1.0","132669","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F7","F7T","7","Audio item F7","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F7T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_25F_audio.webm","null","audio-keyboard-response","27","2.1.1","135489","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","25","25F","25","Audio item 25","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_25F_audio.webm","","","","","","",""
+"truth_judgment","2194","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","1","html-slider-response","28","2.1.0","137686","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","25","25F","25","Audio item 25","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_25F_audio.webm","7","1","1","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F1F_audio.webm","null","audio-keyboard-response","29","2.1.1","142310","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F1","F1F","1","Audio item F1","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F1F_audio.webm","","","","","","",""
+"truth_judgment","2357","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","0","html-slider-response","30","2.1.0","144670","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F1","F1F","1","Audio item F1","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F1F_audio.webm","7","0","0","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_1T_audio.webm","null","audio-keyboard-response","31","2.1.1","150609","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","1","1T","1","Audio item 1","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_1T_audio.webm","","","","","","",""
+"truth_judgment","3040","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","6","html-slider-response","32","2.1.0","153652","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","1","1T","1","Audio item 1","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_1T_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_35T_audio.webm","null","audio-keyboard-response","33","2.1.1","159111","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","35","35T","35","Audio item 35","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_35T_audio.webm","","","","","","",""
+"truth_judgment","1523","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","34","2.1.0","160636","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","35","35T","35","Audio item 35","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_35T_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_19F_audio.webm","null","audio-keyboard-response","35","2.1.1","164236","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","19","19F","19","Audio item 19","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_19F_audio.webm","","","","","","",""
+"truth_judgment","1981","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","10","html-slider-response","36","2.1.0","166219","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","19","19F","19","Audio item 19","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_19F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_17T_audio.webm","null","audio-keyboard-response","37","2.1.1","170903","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","17","17T","17","Audio item 17","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_17T_audio.webm","","","","","","",""
+"truth_judgment","2097","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","13","html-slider-response","38","2.1.0","173002","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","17","17T","17","Audio item 17","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_17T_audio.webm","7","13","13","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_36T_audio.webm","null","audio-keyboard-response","39","2.1.1","177447","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","36","36T","36","Audio item 36","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_36T_audio.webm","","","","","","",""
+"truth_judgment","3021","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","13","html-slider-response","40","2.1.0","180470","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","36","36T","36","Audio item 36","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_36T_audio.webm","7","13","13","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_22F_audio.webm","null","audio-keyboard-response","41","2.1.1","185335","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","22","22F","22","Audio item 22","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_22F_audio.webm","","","","","","",""
+"truth_judgment","1565","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","42","2.1.0","186902","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","22","22F","22","Audio item 22","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_22F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_20F_audio.webm","null","audio-keyboard-response","43","2.1.1","191825","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","20","20F","20","Audio item 20","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_20F_audio.webm","","","","","","",""
+"truth_judgment","2241","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","11","html-slider-response","44","2.1.0","194069","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","20","20F","20","Audio item 20","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_20F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_30T_audio.webm","null","audio-keyboard-response","45","2.1.1","198215","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","30","30T","30","Audio item 30","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_30T_audio.webm","","","","","","",""
+"truth_judgment","2885","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","5","html-slider-response","46","2.1.0","201102","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","30","30T","30","Audio item 30","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_30T_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_5T_audio.webm","null","audio-keyboard-response","47","2.1.1","204642","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","5","5T","5","Audio item 5","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_5T_audio.webm","","","","","","",""
+"truth_judgment","3209","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","48","2.1.0","207853","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","5","5T","5","Audio item 5","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_5T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_34T_audio.webm","null","audio-keyboard-response","49","2.1.1","211633","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","34","34T","34","Audio item 34","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_34T_audio.webm","","","","","","",""
+"truth_judgment","2601","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","14","html-slider-response","50","2.1.0","214237","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","34","34T","34","Audio item 34","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_34T_audio.webm","7","14","14","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_18F_audio.webm","null","audio-keyboard-response","51","2.1.1","219516","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","18","18F","18","Audio item 18","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_18F_audio.webm","","","","","","",""
+"truth_judgment","3133","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","5","html-slider-response","52","2.1.0","222651","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","18","18F","18","Audio item 18","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_18F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_23T_audio.webm","null","audio-keyboard-response","53","2.1.1","227394","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","23","23T","23","Audio item 23","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_23T_audio.webm","","","","","","",""
+"truth_judgment","2423","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","3","html-slider-response","54","2.1.0","229819","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","23","23T","23","Audio item 23","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_23T_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_28F_audio.webm","null","audio-keyboard-response","55","2.1.1","234322","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","28","28F","28","Audio item 28","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_28F_audio.webm","","","","","","",""
+"truth_judgment","2295","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","56","2.1.0","236620","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","28","28F","28","Audio item 28","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_28F_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F14F_audio.webm","null","audio-keyboard-response","57","2.1.1","241303","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F14","F14F","14","Audio item F14","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F14F_audio.webm","","","","","","",""
+"truth_judgment","1414","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","58","2.1.0","242720","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F14","F14F","14","Audio item F14","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F14F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F15T_audio.webm","null","audio-keyboard-response","59","2.1.1","250162","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F15","F15T","15","Audio item F15","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F15T_audio.webm","","","","","","",""
+"truth_judgment","1856","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","4","html-slider-response","60","2.1.0","252020","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F15","F15T","15","Audio item F15","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F15T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_40F_audio.webm","null","audio-keyboard-response","61","2.1.1","255442","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","40","40F","40","Audio item 40","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_40F_audio.webm","","","","","","",""
+"truth_judgment","1492","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","10","html-slider-response","62","2.1.0","256936","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","40","40F","40","Audio item 40","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_40F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_26T_audio.webm","null","audio-keyboard-response","63","2.1.1","260477","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","26","26T","26","Audio item 26","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_26T_audio.webm","","","","","","",""
+"truth_judgment","1707","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","11","html-slider-response","64","2.1.0","262187","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","26","26T","26","Audio item 26","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_26T_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_47T_audio.webm","null","audio-keyboard-response","65","2.1.1","266930","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","47","47T","47","Audio item 47","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_47T_audio.webm","","","","","","",""
+"truth_judgment","1587","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","4","html-slider-response","66","2.1.0","268520","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","47","47T","47","Audio item 47","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_47T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_9T_audio.webm","null","audio-keyboard-response","67","2.1.1","271581","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","9","9T","9","Audio item 9","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_9T_audio.webm","","","","","","",""
+"truth_judgment","1937","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","68","2.1.0","273520","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","9","9T","9","Audio item 9","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_9T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_3T_audio.webm","null","audio-keyboard-response","69","2.1.1","278983","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","3","3T","3","Audio item 3","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_3T_audio.webm","","","","","","",""
+"truth_judgment","1284","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","70","2.1.0","280270","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","3","3T","3","Audio item 3","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_3T_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F9F_audio.webm","null","audio-keyboard-response","71","2.1.1","284109","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F9","F9F","9","Audio item F9","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F9F_audio.webm","","","","","","",""
+"truth_judgment","1575","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","72","2.1.0","285686","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F9","F9F","9","Audio item F9","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F9F_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_24T_audio.webm","null","audio-keyboard-response","73","2.1.1","291751","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","24","24T","24","Audio item 24","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_24T_audio.webm","","","","","","",""
+"truth_judgment","1999","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","74","2.1.0","293753","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","24","24T","24","Audio item 24","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_24T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_29F_audio.webm","null","audio-keyboard-response","75","2.1.1","300413","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","29","29F","29","Audio item 29","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_29F_audio.webm","","","","","","",""
+"truth_judgment","2555","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","5","html-slider-response","76","2.1.0","302970","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","29","29F","29","Audio item 29","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_29F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F16T_audio.webm","null","audio-keyboard-response","77","2.1.1","308552","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F16","F16T","16","Audio item F16","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F16T_audio.webm","","","","","","",""
+"truth_judgment","2132","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","3","html-slider-response","78","2.1.0","310687","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F16","F16T","16","Audio item F16","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F16T_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_38F_audio.webm","null","audio-keyboard-response","79","2.1.1","315005","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","38","38F","38","Audio item 38","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_38F_audio.webm","","","","","","",""
+"truth_judgment","3495","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","80","2.1.0","318503","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","38","38F","38","Audio item 38","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_38F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_42T_audio.webm","null","audio-keyboard-response","81","2.1.1","322466","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","42","42T","42","Audio item 42","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_42T_audio.webm","","","","","","",""
+"truth_judgment","1985","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","82","2.1.0","324454","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","42","42T","42","Audio item 42","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_42T_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F5T_audio.webm","null","audio-keyboard-response","83","2.1.1","328594","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F5","F5T","5","Audio item F5","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F5T_audio.webm","","","","","","",""
+"truth_judgment","2124","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","84","2.1.0","330721","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F5","F5T","5","Audio item F5","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F5T_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_41T_audio.webm","null","audio-keyboard-response","85","2.1.1","335165","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","41","41T","41","Audio item 41","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_41T_audio.webm","","","","","","",""
+"truth_judgment","2604","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","6","html-slider-response","86","2.1.0","337771","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","41","41T","41","Audio item 41","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_41T_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_44T_audio.webm","null","audio-keyboard-response","87","2.1.1","341795","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","44","44T","44","Audio item 44","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_44T_audio.webm","","","","","","",""
+"truth_judgment","1989","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","88","2.1.0","343787","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","44","44T","44","Audio item 44","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_44T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F4F_audio.webm","null","audio-keyboard-response","89","2.1.1","347747","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F4","F4F","4","Audio item F4","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F4F_audio.webm","","","","","","",""
+"truth_judgment","2590","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","90","2.1.0","350339","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F4","F4F","4","Audio item F4","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F4F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F3F_audio.webm","null","audio-keyboard-response","91","2.1.1","354360","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F3","F3F","3","Audio item F3","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F3F_audio.webm","","","","","","",""
+"truth_judgment","2609","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","11","html-slider-response","92","2.1.0","356972","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F3","F3F","3","Audio item F3","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F3F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_32T_audio.webm","null","audio-keyboard-response","93","2.1.1","360696","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","32","32T","32","Audio item 32","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_32T_audio.webm","","","","","","",""
+"truth_judgment","1755","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","94","2.1.0","362453","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","32","32T","32","Audio item 32","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_32T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_39T_audio.webm","null","audio-keyboard-response","95","2.1.1","367251","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","39","39T","39","Audio item 39","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_39T_audio.webm","","","","","","",""
+"truth_judgment","1901","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","96","2.1.0","369154","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","39","39T","39","Audio item 39","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_39T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_37T_audio.webm","null","audio-keyboard-response","97","2.1.1","372579","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","37","37T","37","Audio item 37","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_37T_audio.webm","","","","","","",""
+"truth_judgment","1640","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","11","html-slider-response","98","2.1.0","374221","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","37","37T","37","Audio item 37","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_37T_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_31F_audio.webm","null","audio-keyboard-response","99","2.1.1","378781","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","31","31F","31","Audio item 31","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_31F_audio.webm","","","","","","",""
+"truth_judgment","1553","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","100","2.1.0","380337","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","31","31F","31","Audio item 31","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_31F_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_7F_audio.webm","null","audio-keyboard-response","101","2.1.1","384542","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","7","7F","7","Audio item 7","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_7F_audio.webm","","","","","","",""
+"truth_judgment","1894","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","5","html-slider-response","102","2.1.0","386438","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","7","7F","7","Audio item 7","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_7F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_27F_audio.webm","null","audio-keyboard-response","103","2.1.1","390099","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","27","27F","27","Audio item 27","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_27F_audio.webm","","","","","","",""
+"truth_judgment","2954","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","3","html-slider-response","104","2.1.0","393055","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","27","27F","27","Audio item 27","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_27F_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_4F_audio.webm","null","audio-keyboard-response","105","2.1.1","395576","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","4","4F","4","Audio item 4","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_4F_audio.webm","","","","","","",""
+"truth_judgment","4492","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","1","html-slider-response","106","2.1.0","400071","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","4","4F","4","Audio item 4","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_4F_audio.webm","7","1","1","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_12F_audio.webm","null","audio-keyboard-response","107","2.1.1","405774","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","12","12F","12","Audio item 12","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_12F_audio.webm","","","","","","",""
+"truth_judgment","2128","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","4","html-slider-response","108","2.1.0","407905","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","12","12F","12","Audio item 12","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_12F_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_8F_audio.webm","null","audio-keyboard-response","109","2.1.1","413544","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","8","8F","8","Audio item 8","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_8F_audio.webm","","","","","","",""
+"truth_judgment","2991","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","110","2.1.0","416538","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","8","8F","8","Audio item 8","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_8F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_45T_audio.webm","null","audio-keyboard-response","111","2.1.1","422360","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","45","45T","45","Audio item 45","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_45T_audio.webm","","","","","","",""
+"truth_judgment","1126","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","112","2.1.0","423488","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","45","45T","45","Audio item 45","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_45T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F6F_audio.webm","null","audio-keyboard-response","113","2.1.1","428889","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F6","F6F","6","Audio item F6","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F6F_audio.webm","","","","","","",""
+"truth_judgment","2196","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","3","html-slider-response","114","2.1.0","431087","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F6","F6F","6","Audio item F6","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F6F_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_15T_audio.webm","null","audio-keyboard-response","115","2.1.1","437027","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","15","15T","15","Audio item 15","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_15T_audio.webm","","","","","","",""
+"truth_judgment","1609","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","116","2.1.0","438639","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","15","15T","15","Audio item 15","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_15T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F10T_audio.webm","null","audio-keyboard-response","117","2.1.1","443678","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F10","F10T","10","Audio item F10","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F10T_audio.webm","","","","","","",""
+"truth_judgment","1558","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","118","2.1.0","445238","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F10","F10T","10","Audio item F10","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F10T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F11F_audio.webm","null","audio-keyboard-response","119","2.1.1","450820","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F11","F11F","11","Audio item F11","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F11F_audio.webm","","","","","","",""
+"truth_judgment","3699","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","3","html-slider-response","120","2.1.0","454521","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F11","F11F","11","Audio item F11","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F11F_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F2F_audio.webm","null","audio-keyboard-response","121","2.1.1","460345","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F2","F2F","2","Audio item F2","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F2F_audio.webm","","","","","","",""
+"truth_judgment","1624","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","12","html-slider-response","122","2.1.0","461972","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F2","F2F","2","Audio item F2","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F2F_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F12T_audio.webm","null","audio-keyboard-response","123","2.1.1","466654","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F12","F12T","12","Audio item F12","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F12T_audio.webm","","","","","","",""
+"truth_judgment","1617","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","4","html-slider-response","124","2.1.0","468272","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","F12","F12T","12","Audio item F12","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F12T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_21F_audio.webm","null","audio-keyboard-response","125","2.1.1","473790","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","21","21F","21","Audio item 21","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_21F_audio.webm","","","","","","",""
+"truth_judgment","1197","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","126","2.1.0","474989","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","21","21F","21","Audio item 21","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_21F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_46F_audio.webm","null","audio-keyboard-response","127","2.1.1","479790","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","46","46F","46","Audio item 46","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_46F_audio.webm","","","","","","",""
+"truth_judgment","2163","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","6","html-slider-response","128","2.1.0","481956","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","46","46F","46","Audio item 46","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_46F_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_33F_audio.webm","null","audio-keyboard-response","129","2.1.1","485017","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","33","33F","33","Audio item 33","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_33F_audio.webm","","","","","","",""
+"truth_judgment","3853","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","6","html-slider-response","130","2.1.0","488872","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","33","33F","33","Audio item 33","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_33F_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/6nhu1nbwba_16F_audio.webm","null","audio-keyboard-response","131","2.1.1","492836","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","16","16F","16","Audio item 16","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_16F_audio.webm","","","","","","",""
+"truth_judgment","1384","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","3","html-slider-response","132","2.1.0","494223","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","16","16F","16","Audio item 16","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/6nhu1nbwba_16F_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_10T_audio.webm","null","audio-keyboard-response","133","2.1.1","498484","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","10","10T","10","Audio item 10","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_10T_audio.webm","","","","","","",""
+"truth_judgment","2471","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","5","html-slider-response","134","2.1.0","500957","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","10","10T","10","Audio item 10","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_10T_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_14T_audio.webm","null","audio-keyboard-response","135","2.1.1","507081","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","14","14T","14","Audio item 14","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_14T_audio.webm","","","","","","",""
+"truth_judgment","2573","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","136","2.1.0","509657","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","14","14T","14","Audio item 14","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_14T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_6F_audio.webm","null","audio-keyboard-response","137","2.1.1","514820","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","6","6F","6","Audio item 6","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_6F_audio.webm","","","","","","",""
+"truth_judgment","1350","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","9","html-slider-response","138","2.1.0","516172","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","6","6F","6","Audio item 6","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_6F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_2F_audio.webm","null","audio-keyboard-response","139","2.1.1","519956","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","2","2F","2","Audio item 2","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_2F_audio.webm","","","","","","",""
+"truth_judgment","1997","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","8","html-slider-response","140","2.1.0","521956","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","2","2F","2","Audio item 2","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_2F_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"final_screen","1697","
+        <div class=""study-box center-text"">
+          <h2>End of Study</h2>
+          <p>Thank you for participating.</p>
+          <p>Click the button below to finish and send your responses securely to the study server.</p>
+        </div>
+      ","0","html-button-response","141","2.1.0","523655","we2q2j5e","3","accent_credibility_four_speakers","69cec0f7f7516813a52a288f","6a0d18ca6b133c23bd4a9bda","6a0d1f521efbb4e1ddb90a84","prolific","","","","","","","","","","","","","","","","","","","","","","","","","",""

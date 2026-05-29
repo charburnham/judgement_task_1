@@ -1,0 +1,619 @@
+"trial_name","rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","participant_id","counterbalance_list","study_name","consented","success","timeout","failed_images","failed_audio","failed_video","view_history","fact_id","clip_code","item_number","statement_text","truth_code","truth_value","stimulus_set","is_filler","speaker_id","speaker_label","accent_group","audio_path","slider_start","participant_truth_rating_cm","participant_judgment","truth_scale_min_cm","truth_scale_max_cm","truth_scale_left_label","truth_scale_right_label"
+"consent","612614","
+    <div class=""study-box"">
+      <h1>Consent Form</h1>
+      <p>You are invited to take part in a study about how people evaluate spoken information.</p>
+      <p>In this study, you will listen to short audio recordings and rate how true you think each statement is on a continuous scale from <strong>definitely false</strong> to <strong>definitely true</strong>.</p>
+      <p>Your responses and reaction times will be recorded. You may stop at any time by closing the browser window.</p>
+      <p>By clicking <strong>I consent</strong>, you confirm that you are at least 18 years old, that you understand what participation involves, and that you agree to take part.</p>
+    </div>
+  ","0","html-button-response","0","2.1.0","612620","qmzp17gt","1","accent_credibility_four_speakers","true","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","preload","2","2.1.0","612817","qmzp17gt","1","accent_credibility_four_speakers","","true","false","[]","[]","[]","","","","","","","","","","","","","","","","","","","",""
+"instructions","158890","","","instructions","3","2.1.0","771707","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","[{""page_index"":0,""viewing_time"":21859},{""page_index"":1,""viewing_time"":9420},{""page_index"":2,""viewing_time"":26942},{""page_index"":3,""viewing_time"":68697},{""page_index"":4,""viewing_time"":7004},{""page_index"":3,""viewing_time"":5992},{""page_index"":4,""viewing_time"":18975}]","","","","","","","","","","","","","","","","","","",""
+"practice_intro","101348","
+        <div class=""study-box center-text"">
+          <h2>Listening Practice Trial</h2>
+          <p>You are about to complete one listening practice trial.</p>
+          <p>Listen to the recording and rate how true the statement seems on the continuous scale, just like you will in the experiment.</p>
+          <p>This trial is only for practice.</p>
+        </div>
+      ","0","html-button-response","9","2.1.0","922264","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F19T_audio.webm","null","audio-keyboard-response","10","2.1.1","927493","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F19","F19T","19","Audio item F19","T","true","practice","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F19T_audio.webm","","","","","","",""
+"truth_judgment","18785","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","11","2.1.0","946280","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F19","F19T","19","Audio item F19","T","true","practice","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F19T_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"practice_complete","3057","
+        <div class=""study-box center-text"">
+          <h2>Practice Complete</h2>
+          <p>You have finished the practice trial.</p>
+          <p>The actual experiment will begin next.</p>
+        </div>
+      ","0","html-button-response","12","2.1.0","949339","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_47T_audio.webm","null","audio-keyboard-response","13","2.1.1","954050","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","47","47T","47","Audio item 47","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_47T_audio.webm","","","","","","",""
+"truth_judgment","57909","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","4","html-slider-response","14","2.1.0","1011960","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","47","47T","47","Audio item 47","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_47T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F11T_audio.webm","null","audio-keyboard-response","15","2.1.1","1017714","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F11","F11T","11","Audio item F11","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F11T_audio.webm","","","","","","",""
+"truth_judgment","3687","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","6","html-slider-response","16","2.1.0","1021402","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F11","F11T","11","Audio item F11","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F11T_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F16T_audio.webm","null","audio-keyboard-response","17","2.1.1","1027458","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F16","F16T","16","Audio item F16","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F16T_audio.webm","","","","","","",""
+"truth_judgment","3051","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","18","2.1.0","1030510","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F16","F16T","16","Audio item F16","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F16T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_15F_audio.webm","null","audio-keyboard-response","19","2.1.1","1037759","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","15","15F","15","Audio item 15","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_15F_audio.webm","","","","","","",""
+"truth_judgment","1743","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","20","2.1.0","1039502","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","15","15F","15","Audio item 15","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_15F_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_30F_audio.webm","null","audio-keyboard-response","21","2.1.1","1043491","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","30","30F","30","Audio item 30","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_30F_audio.webm","","","","","","",""
+"truth_judgment","2691","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","22","2.1.0","1046183","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","30","30F","30","Audio item 30","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_30F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F13T_audio.webm","null","audio-keyboard-response","23","2.1.1","1050124","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F13","F13T","13","Audio item F13","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F13T_audio.webm","","","","","","",""
+"truth_judgment","2222","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","24","2.1.0","1052347","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F13","F13T","13","Audio item F13","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F13T_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_46F_audio.webm","null","audio-keyboard-response","25","2.1.1","1056396","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","46","46F","46","Audio item 46","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_46F_audio.webm","","","","","","",""
+"truth_judgment","1280","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","4","html-slider-response","26","2.1.0","1057676","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","46","46F","46","Audio item 46","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_46F_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_27T_audio.webm","null","audio-keyboard-response","27","2.1.1","1060964","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","27","27T","27","Audio item 27","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_27T_audio.webm","","","","","","",""
+"truth_judgment","4267","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","14","html-slider-response","28","2.1.0","1065232","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","27","27T","27","Audio item 27","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_27T_audio.webm","7","14","14","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F3T_audio.webm","null","audio-keyboard-response","29","2.1.1","1068683","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F3","F3T","3","Audio item F3","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F3T_audio.webm","","","","","","",""
+"truth_judgment","1485","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","14","html-slider-response","30","2.1.0","1070169","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F3","F3T","3","Audio item F3","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F3T_audio.webm","7","14","14","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_17T_audio.webm","null","audio-keyboard-response","31","2.1.1","1074510","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","17","17T","17","Audio item 17","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_17T_audio.webm","","","","","","",""
+"truth_judgment","2006","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","2","html-slider-response","32","2.1.0","1076516","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","17","17T","17","Audio item 17","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_17T_audio.webm","7","2","2","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_48F_audio.webm","null","audio-keyboard-response","33","2.1.1","1081009","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","48","48F","48","Audio item 48","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_48F_audio.webm","","","","","","",""
+"truth_judgment","1259","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","34","2.1.0","1082269","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","48","48F","48","Audio item 48","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_48F_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_24F_audio.webm","null","audio-keyboard-response","35","2.1.1","1087248","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","24","24F","24","Audio item 24","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_24F_audio.webm","","","","","","",""
+"truth_judgment","10619","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","6","html-slider-response","36","2.1.0","1097868","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","24","24F","24","Audio item 24","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_24F_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F14F_audio.webm","null","audio-keyboard-response","37","2.1.1","1103077","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F14","F14F","14","Audio item F14","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F14F_audio.webm","","","","","","",""
+"truth_judgment","18145","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","38","2.1.0","1121222","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F14","F14F","14","Audio item F14","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F14F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_5F_audio.webm","null","audio-keyboard-response","39","2.1.1","1126624","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","5","5F","5","Audio item 5","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_5F_audio.webm","","","","","","",""
+"truth_judgment","1095","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","40","2.1.0","1127720","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","5","5F","5","Audio item 5","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_5F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_12T_audio.webm","null","audio-keyboard-response","41","2.1.1","1133527","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","12","12T","12","Audio item 12","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_12T_audio.webm","","","","","","",""
+"truth_judgment","1258","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","42","2.1.0","1134785","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","12","12T","12","Audio item 12","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_12T_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_26T_audio.webm","null","audio-keyboard-response","43","2.1.1","1138315","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","26","26T","26","Audio item 26","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_26T_audio.webm","","","","","","",""
+"truth_judgment","1802","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","44","2.1.0","1140117","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","26","26T","26","Audio item 26","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_26T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F2T_audio.webm","null","audio-keyboard-response","45","2.1.1","1146198","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F2","F2T","2","Audio item F2","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F2T_audio.webm","","","","","","",""
+"truth_judgment","2365","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","46","2.1.0","1148563","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F2","F2T","2","Audio item F2","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F2T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F12T_audio.webm","null","audio-keyboard-response","47","2.1.1","1153782","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F12","F12T","12","Audio item F12","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F12T_audio.webm","","","","","","",""
+"truth_judgment","1564","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","2","html-slider-response","48","2.1.0","1155347","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F12","F12T","12","Audio item F12","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F12T_audio.webm","7","2","2","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_34F_audio.webm","null","audio-keyboard-response","49","2.1.1","1158937","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","34","34F","34","Audio item 34","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_34F_audio.webm","","","","","","",""
+"truth_judgment","2277","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","50","2.1.0","1161215","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","34","34F","34","Audio item 34","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_34F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F8F_audio.webm","null","audio-keyboard-response","51","2.1.1","1167634","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F8","F8F","8","Audio item F8","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F8F_audio.webm","","","","","","",""
+"truth_judgment","1244","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","52","2.1.0","1168879","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F8","F8F","8","Audio item F8","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F8F_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_10T_audio.webm","null","audio-keyboard-response","53","2.1.1","1173673","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","10","10T","10","Audio item 10","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_10T_audio.webm","","","","","","",""
+"truth_judgment","1430","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","54","2.1.0","1175104","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","10","10T","10","Audio item 10","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_10T_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_43F_audio.webm","null","audio-keyboard-response","55","2.1.1","1179670","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","43","43F","43","Audio item 43","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_43F_audio.webm","","","","","","",""
+"truth_judgment","1630","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","3","html-slider-response","56","2.1.0","1181300","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","43","43F","43","Audio item 43","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_43F_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_7F_audio.webm","null","audio-keyboard-response","57","2.1.1","1186759","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","7","7F","7","Audio item 7","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_7F_audio.webm","","","","","","",""
+"truth_judgment","1544","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","58","2.1.0","1188304","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","7","7F","7","Audio item 7","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_7F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F15F_audio.webm","null","audio-keyboard-response","59","2.1.1","1193989","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F15","F15F","15","Audio item F15","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F15F_audio.webm","","","","","","",""
+"truth_judgment","1958","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","60","2.1.0","1195948","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F15","F15F","15","Audio item F15","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F15F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_42F_audio.webm","null","audio-keyboard-response","61","2.1.1","1200692","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","42","42F","42","Audio item 42","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_42F_audio.webm","","","","","","",""
+"truth_judgment","9060","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","12","html-slider-response","62","2.1.0","1209752","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","42","42F","42","Audio item 42","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_42F_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F10F_audio.webm","null","audio-keyboard-response","63","2.1.1","1214757","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F10","F10F","10","Audio item F10","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F10F_audio.webm","","","","","","",""
+"truth_judgment","16484","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","2","html-slider-response","64","2.1.0","1231241","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F10","F10F","10","Audio item F10","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F10F_audio.webm","7","2","2","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_37T_audio.webm","null","audio-keyboard-response","65","2.1.1","1235669","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","37","37T","37","Audio item 37","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_37T_audio.webm","","","","","","",""
+"truth_judgment","16452","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","66","2.1.0","1252121","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","37","37T","37","Audio item 37","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_37T_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F7F_audio.webm","null","audio-keyboard-response","67","2.1.1","1258321","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F7","F7F","7","Audio item F7","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F7F_audio.webm","","","","","","",""
+"truth_judgment","949","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","68","2.1.0","1259271","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F7","F7F","7","Audio item F7","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F7F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_23T_audio.webm","null","audio-keyboard-response","69","2.1.1","1263082","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","23","23T","23","Audio item 23","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_23T_audio.webm","","","","","","",""
+"truth_judgment","2174","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","70","2.1.0","1265257","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","23","23T","23","Audio item 23","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_23T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_11T_audio.webm","null","audio-keyboard-response","71","2.1.1","1273535","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","11","11T","11","Audio item 11","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_11T_audio.webm","","","","","","",""
+"truth_judgment","1552","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","72","2.1.0","1275087","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","11","11T","11","Audio item 11","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_11T_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F6T_audio.webm","null","audio-keyboard-response","73","2.1.1","1280597","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F6","F6T","6","Audio item F6","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F6T_audio.webm","","","","","","",""
+"truth_judgment","1805","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","74","2.1.0","1282403","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F6","F6T","6","Audio item F6","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F6T_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_16F_audio.webm","null","audio-keyboard-response","75","2.1.1","1287474","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","16","16F","16","Audio item 16","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_16F_audio.webm","","","","","","",""
+"truth_judgment","48775","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","12","html-slider-response","76","2.1.0","1336251","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","16","16F","16","Audio item 16","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_16F_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_13T_audio.webm","null","audio-keyboard-response","77","2.1.1","1342679","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","13","13T","13","Audio item 13","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_13T_audio.webm","","","","","","",""
+"truth_judgment","3185","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","78","2.1.0","1345866","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","13","13T","13","Audio item 13","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_13T_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_20F_audio.webm","null","audio-keyboard-response","79","2.1.1","1350748","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","20","20F","20","Audio item 20","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_20F_audio.webm","","","","","","",""
+"truth_judgment","18361","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","80","2.1.0","1369110","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","20","20F","20","Audio item 20","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_20F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_41F_audio.webm","null","audio-keyboard-response","81","2.1.1","1374656","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","41","41F","41","Audio item 41","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_41F_audio.webm","","","","","","",""
+"truth_judgment","1587","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","82","2.1.0","1376243","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","41","41F","41","Audio item 41","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_41F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F4F_audio.webm","null","audio-keyboard-response","83","2.1.1","1380434","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F4","F4F","4","Audio item F4","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F4F_audio.webm","","","","","","",""
+"truth_judgment","20985","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","84","2.1.0","1401419","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F4","F4F","4","Audio item F4","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F4F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F5F_audio.webm","null","audio-keyboard-response","85","2.1.1","1405651","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F5","F5F","5","Audio item F5","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F5F_audio.webm","","","","","","",""
+"truth_judgment","47068","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","6","html-slider-response","86","2.1.0","1452720","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F5","F5F","5","Audio item F5","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F5F_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_21F_audio.webm","null","audio-keyboard-response","87","2.1.1","1458382","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","21","21F","21","Audio item 21","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_21F_audio.webm","","","","","","",""
+"truth_judgment","10066","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","88","2.1.0","1468448","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","21","21F","21","Audio item 21","F","false","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_21F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_4F_audio.webm","null","audio-keyboard-response","89","2.1.1","1471912","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","4","4F","4","Audio item 4","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_4F_audio.webm","","","","","","",""
+"truth_judgment","1447","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","3","html-slider-response","90","2.1.0","1473360","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","4","4F","4","Audio item 4","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_4F_audio.webm","7","3","3","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_19F_audio.webm","null","audio-keyboard-response","91","2.1.1","1476111","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","19","19F","19","Audio item 19","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_19F_audio.webm","","","","","","",""
+"truth_judgment","1091","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","92","2.1.0","1477202","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","19","19F","19","Audio item 19","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_19F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F1F_audio.webm","null","audio-keyboard-response","93","2.1.1","1482021","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F1","F1F","1","Audio item F1","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F1F_audio.webm","","","","","","",""
+"truth_judgment","1810","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","94","2.1.0","1483832","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F1","F1F","1","Audio item F1","F","false","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F1F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_6T_audio.webm","null","audio-keyboard-response","95","2.1.1","1488983","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","6","6T","6","Audio item 6","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_6T_audio.webm","","","","","","",""
+"truth_judgment","1750","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","4","html-slider-response","96","2.1.0","1490733","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","6","6T","6","Audio item 6","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_6T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_1T_audio.webm","null","audio-keyboard-response","97","2.1.1","1497444","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","1","1T","1","Audio item 1","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_1T_audio.webm","","","","","","",""
+"truth_judgment","29685","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","98","2.1.0","1527130","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","1","1T","1","Audio item 1","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_1T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_31T_audio.webm","null","audio-keyboard-response","99","2.1.1","1531537","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","31","31T","31","Audio item 31","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_31T_audio.webm","","","","","","",""
+"truth_judgment","2582","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","12","html-slider-response","100","2.1.0","1534119","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","31","31T","31","Audio item 31","T","true","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_31T_audio.webm","7","12","12","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_35F_audio.webm","null","audio-keyboard-response","101","2.1.1","1539736","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","35","35F","35","Audio item 35","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_35F_audio.webm","","","","","","",""
+"truth_judgment","4488","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","102","2.1.0","1544226","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","35","35F","35","Audio item 35","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_35F_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_9T_audio.webm","null","audio-keyboard-response","103","2.1.1","1548130","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","9","9T","9","Audio item 9","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_9T_audio.webm","","","","","","",""
+"truth_judgment","1377","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","4","html-slider-response","104","2.1.0","1549508","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","9","9T","9","Audio item 9","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_9T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_44F_audio.webm","null","audio-keyboard-response","105","2.1.1","1554599","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","44","44F","44","Audio item 44","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_44F_audio.webm","","","","","","",""
+"truth_judgment","1379","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","106","2.1.0","1555979","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","44","44F","44","Audio item 44","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_44F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_29T_audio.webm","null","audio-keyboard-response","107","2.1.1","1561886","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","29","29T","29","Audio item 29","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_29T_audio.webm","","","","","","",""
+"truth_judgment","2462","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","108","2.1.0","1564349","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","29","29T","29","Audio item 29","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_29T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_40T_audio.webm","null","audio-keyboard-response","109","2.1.1","1569896","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","40","40T","40","Audio item 40","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_40T_audio.webm","","","","","","",""
+"truth_judgment","17004","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","2","html-slider-response","110","2.1.0","1586902","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","40","40T","40","Audio item 40","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_40T_audio.webm","7","2","2","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_45T_audio.webm","null","audio-keyboard-response","111","2.1.1","1593216","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","45","45T","45","Audio item 45","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_45T_audio.webm","","","","","","",""
+"truth_judgment","2591","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","112","2.1.0","1595807","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","45","45T","45","Audio item 45","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_45T_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_22F_audio.webm","null","audio-keyboard-response","113","2.1.1","1599958","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","22","22F","22","Audio item 22","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_22F_audio.webm","","","","","","",""
+"truth_judgment","1346","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","6","html-slider-response","114","2.1.0","1601304","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","22","22F","22","Audio item 22","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_22F_audio.webm","7","6","6","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F9T_audio.webm","null","audio-keyboard-response","115","2.1.1","1605883","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F9","F9T","9","Audio item F9","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F9T_audio.webm","","","","","","",""
+"truth_judgment","1801","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","116","2.1.0","1607685","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","F9","F9T","9","Audio item F9","T","true","filler","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F9T_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_3F_audio.webm","null","audio-keyboard-response","117","2.1.1","1613375","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","3","3F","3","Audio item 3","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_3F_audio.webm","","","","","","",""
+"truth_judgment","1317","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","8","html-slider-response","118","2.1.0","1614692","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","3","3F","3","Audio item 3","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_3F_audio.webm","7","8","8","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_1/6bqg3s4g4q_39F_audio.webm","null","audio-keyboard-response","119","2.1.1","1619541","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","39","39F","39","Audio item 39","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_39F_audio.webm","","","","","","",""
+"truth_judgment","1316","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","120","2.1.0","1620858","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","39","39F","39","Audio item 39","F","false","main","false","non_native_1","Non-native Speaker 1","non_native","audio/non_native_1/6bqg3s4g4q_39F_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_18F_audio.webm","null","audio-keyboard-response","121","2.1.1","1625650","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","18","18F","18","Audio item 18","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_18F_audio.webm","","","","","","",""
+"truth_judgment","1169","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","11","html-slider-response","122","2.1.0","1626820","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","18","18F","18","Audio item 18","F","false","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_18F_audio.webm","7","11","11","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_38T_audio.webm","null","audio-keyboard-response","123","2.1.1","1631743","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","38","38T","38","Audio item 38","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_38T_audio.webm","","","","","","",""
+"truth_judgment","1159","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","124","2.1.0","1632903","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","38","38T","38","Audio item 38","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_38T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_33T_audio.webm","null","audio-keyboard-response","125","2.1.1","1636880","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","33","33T","33","Audio item 33","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_33T_audio.webm","","","","","","",""
+"truth_judgment","1900","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","4","html-slider-response","126","2.1.0","1638781","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","33","33T","33","Audio item 33","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_33T_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_32F_audio.webm","null","audio-keyboard-response","127","2.1.1","1642441","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","32","32F","32","Audio item 32","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_32F_audio.webm","","","","","","",""
+"truth_judgment","1312","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","128","2.1.0","1643753","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","32","32F","32","Audio item 32","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_32F_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_36T_audio.webm","null","audio-keyboard-response","129","2.1.1","1648453","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","36","36T","36","Audio item 36","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_36T_audio.webm","","","","","","",""
+"truth_judgment","6947","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","130","2.1.0","1655401","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","36","36T","36","Audio item 36","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_36T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_28F_audio.webm","null","audio-keyboard-response","131","2.1.1","1659888","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","28","28F","28","Audio item 28","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_28F_audio.webm","","","","","","",""
+"truth_judgment","1596","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","4","html-slider-response","132","2.1.0","1661485","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","28","28F","28","Audio item 28","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_28F_audio.webm","7","4","4","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_14T_audio.webm","null","audio-keyboard-response","133","2.1.1","1668165","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","14","14T","14","Audio item 14","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_14T_audio.webm","","","","","","",""
+"truth_judgment","2756","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","9","html-slider-response","134","2.1.0","1670922","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","14","14T","14","Audio item 14","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_14T_audio.webm","7","9","9","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_8T_audio.webm","null","audio-keyboard-response","135","2.1.1","1676239","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","8","8T","8","Audio item 8","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_8T_audio.webm","","","","","","",""
+"truth_judgment","34332","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","1","html-slider-response","136","2.1.0","1710571","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","8","8T","8","Audio item 8","T","true","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_8T_audio.webm","7","1","1","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_1/ha77v84840_25T_audio.webm","null","audio-keyboard-response","137","2.1.1","1714546","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","25","25T","25","Audio item 25","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_25T_audio.webm","","","","","","",""
+"truth_judgment","1388","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","10","html-slider-response","138","2.1.0","1715935","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","25","25T","25","Audio item 25","T","true","main","false","native_1","Native Speaker 1","native","audio/native_1/ha77v84840_25T_audio.webm","7","10","10","0","14","definitely false","definitely true"
+"audio_presentation","null","audio/native_2/ftqpxk732r_2T_audio.webm","null","audio-keyboard-response","139","2.1.1","1720306","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","2","2T","2","Audio item 2","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_2T_audio.webm","","","","","","",""
+"truth_judgment","1508","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+      <p>Move the marker to the point on the line that best matches your judgment.</p>
+      <p class=""truth-scale-instruction"">Left end: definitely false. Right end: definitely true.</p>
+      <p class=""small-note"">Reaction time for this judgment is recorded automatically.</p>
+    </div>
+  ","5","html-slider-response","140","2.1.0","1721815","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","2","2T","2","Audio item 2","T","true","main","false","native_2","Native Speaker 2","native","audio/native_2/ftqpxk732r_2T_audio.webm","7","5","5","0","14","definitely false","definitely true"
+"final_screen","2222","
+        <div class=""study-box center-text"">
+          <h2>End of Study</h2>
+          <p>Thank you for participating.</p>
+          <p>Click the button below to finish and send your responses securely to the study server.</p>
+        </div>
+      ","0","html-button-response","141","2.1.0","1724038","qmzp17gt","1","accent_credibility_four_speakers","","","","","","","","","","","","","","","","","","","","","","","","","",""

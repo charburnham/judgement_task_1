@@ -1,0 +1,46 @@
+"trial_name","rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","participant_id","counterbalance_list","study_name","prolific_pid","prolific_study_id","prolific_session_id","recruitment_platform","consented","success","timeout","failed_images","failed_audio","failed_video","view_history","fact_id","clip_code","item_number","statement_text","truth_code","truth_value","stimulus_set","is_filler","speaker_id","speaker_label","accent_group","audio_path","slider_start","participant_truth_rating_cm","participant_judgment","truth_scale_min_cm","truth_scale_max_cm","truth_scale_left_label","truth_scale_right_label"
+"consent","201","
+    <div class=""study-box"">
+      <h1>Consent Form</h1>
+      <p>You are invited to take part in a study about how people evaluate spoken information.</p>
+      <p>In this study, you will listen to short audio recordings and rate how true you think each statement is on a continuous scale from <strong>definitely false</strong> to <strong>definitely true</strong>.</p>
+      <p>Your responses and reaction times will be recorded. You may stop at any time by closing the browser window.</p>
+      <p>By clicking <strong>I consent</strong>, you confirm that you are at least 18 years old, that you understand what participation involves, and that you agree to take part.</p>
+    </div>
+  ","0","html-button-response","0","2.1.0","233","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","true","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","preload","2","2.1.0","299","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","true","false","[]","[]","[]","","","","","","","","","","","","","","","","","","","",""
+"instructions","178","","","instructions","3","2.1.0","477","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","[{""page_index"":0,""viewing_time"":47},{""page_index"":1,""viewing_time"":31},{""page_index"":2,""viewing_time"":33},{""page_index"":3,""viewing_time"":34},{""page_index"":4,""viewing_time"":33}]","","","","","","","","","","","","","","","","","","",""
+"practice_intro","32","
+        <div class=""study-box center-text"">
+          <h2>Listening Practice Trial</h2>
+          <p>You are about to complete one listening practice trial.</p>
+          <p>Listen to the recording and rate how true the statement seems on the continuous scale, just like you will in the experiment.</p>
+          <p>This trial is only for practice.</p>
+        </div>
+      ","0","html-button-response","9","2.1.0","812","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"audio_presentation","null","audio/filler_talker/7brghu4wnv_F19T_audio.webm","null","audio-keyboard-response","10","2.1.1","5498","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","F19","F19T","19","Audio item F19","T","true","practice","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F19T_audio.webm","","","","","","",""
+"truth_judgment","395","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","11.66","html-slider-response","11","2.1.0","5896","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","F19","F19T","19","Audio item F19","T","true","practice","true","filler_talker","Filler Talker","filler","audio/filler_talker/7brghu4wnv_F19T_audio.webm","700","11.66","11.66","0","14","definitely false","definitely true"
+"practice_complete","29","
+        <div class=""study-box center-text"">
+          <h2>Practice Complete</h2>
+          <p>You have finished the practice trial.</p>
+          <p>The actual experiment will begin next.</p>
+        </div>
+      ","0","html-button-response","12","2.1.0","5926","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"audio_presentation","null","audio/non_native_2/2j7bwre4ol_14F_audio.webm","null","audio-keyboard-response","13","2.1.1","11926","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","14","14F","14","Audio item 14","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_14F_audio.webm","","","","","","",""
+"truth_judgment","601","
+    <div class=""study-box center-text truth-scale-trial"">
+      <div class=""big-question"">How true do you think the statement you just heard is?</div>
+    </div>
+  ","11.66","html-slider-response","14","2.1.0","12531","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","14","14F","14","Audio item 14","F","false","main","false","non_native_2","Non-native Speaker 2","non_native","audio/non_native_2/2j7bwre4ol_14F_audio.webm","700","11.66","11.66","0","14","definitely false","definitely true"
+"final_screen","28","
+        <div class=""study-box center-text"">
+          <h2>End of Study</h2>
+          <p>Thank you for participating.</p>
+          <p>Click the button below to finish and send your responses securely to the study server.</p>
+        </div>
+      ","0","html-button-response","15","2.1.0","12560","uuxeoesv","3","accent_credibility_four_speakers","test123","study123","session123","prolific","","","","","","","","","","","","","","","","","","","","","","","","","",""
